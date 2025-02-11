@@ -2,8 +2,6 @@
 
 ###
 
-<br clear="both">
-
 <img src="https://raw.githubusercontent.com/Achuth-0908/Achuth-0908/output/snake.svg" alt="Snake animation" />
 
 ###
