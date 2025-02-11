@@ -1,7 +1,7 @@
 # 💫 About Me:
 Hi 👋! My name is Achuth and I'm a third-year undergrad passionate about building innovative products and working on personal projects.<br>Currently Working on personal projects in AI, web development, and blockchain.
 
-
+[![GitHub WidgetBox](https://github-widgetbox.vercel.app/api/profile?username=Achuth-0908&data=followers,repositories,stars,commits)](https://github.com/Jurredr/github-widgetbox)
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/its_achuth) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/achuth-g-69104a251) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:achuthganesh09@gmail.com) 
 
