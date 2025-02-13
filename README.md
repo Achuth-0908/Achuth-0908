@@ -1,5 +1,5 @@
 # 💫 About Me:
-Hi 👋! My name is Achuth and I'm a third-year undergrad passionate about building innovative products and working on personal projects.<br>Currently Working on personal projects in AI, web development, and blockchain.
+Hi 👋! My name is Achuth and I'm a third-year undergrad passionate about building innovative products and working on personal projects.<br>Currently Working on personal projects in AI, web development, and blockchain...
 
 [![GitHub WidgetBox](https://github-widgetbox.vercel.app/api/profile?username=Achuth-0908&data=followers,repositories,stars,commits&theme=nautilus)](https://github.com/Jurredr/github-widgetbox)
 
