@@ -1,5 +1,5 @@
 # 💫About Me :
-Hi 👋! My name is Achuth and I'm a third-year undergrad passionate about building innovative products and working on personal projects.
+Hi 👋! My name is Achuth and I'm a final year undergrad passionate about building innovative products and working on personal projects.
 Currently Working on personal projects in AI, web development, and blockchain.
 
 ## 🌐Socials
