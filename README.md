@@ -31,7 +31,7 @@
 [![](https://visitcount.itsvg.in/api?id=Achuth-0908&icon=3&color=9)](https://visitcount.itsvg.in)
 
 <h2>⚡️ Where to find me</h2>
-<p><a target="_blank" href="https://gmail.com/achuthganesh09@gmail.com" style="display: inline-block;"><img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white&color=#0f1419" alt="gmail" /></a>
+<p><a target="_blank" href="https://gmail.com/achuthganesh09@gmail.com" style="display: inline-block;"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badgelogo=gmail&logoColor=white&color=#0f1419" alt="gmail" /></a>
 <a target="_blank" href="https://www.linkedin.com/in/achuth-g-69104a251" style="display: inline-block;"><img src="https://img.shields.io/badge/linkedin-logo?style=for-the-badge&logo=linkedin&logoColor=white&color=#0a77b6" alt="linkedin" /></a>
 <a target="_blank" href="https://www.instagram.com/its_achuth" style="display: inline-block;"><img src="https://img.shields.io/badge/instagram-logo?style=for-the-badge&logo=instagram&logoColor=white&color=#F35369" alt="instagram" /></a></p>
 
