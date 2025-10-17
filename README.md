@@ -20,10 +20,6 @@
 ![](https://nirzak-streak-stats.vercel.app/?user=Achuth-0908&theme=chartreuse-dark&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Achuth-0908&theme=chartreuse-dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
-<h2> 🏆 GitHub Trophies </h2>
-
-![](https://github-profile-trophy.vercel.app/?username=Achuth-0908&theme=radical&no-frame=false&no-bg=true&margin-w=4)
-
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
 
@@ -35,9 +31,7 @@
 [![](https://visitcount.itsvg.in/api?id=Achuth-0908&icon=3&color=9)](https://visitcount.itsvg.in)
 
 <h2>⚡️ Where to find me</h2>
-<p><a target="_blank" href="https://twitter.com/@achuth_tweets" style="display: inline-block;"><img src="https://img.shields.io/badge/twitter-x?style=for-the-badge&logo=x&logoColor=white&color=#0f1419" alt="twitter" /></a>
+<p><a target="_blank" href="https://gmail.com/@achuthganesh09@gmail.com" style="display: inline-block;"><img src="https://img.shields.io/badge/gmail?style=for-the-badge&logo=x&logoColor=white&color=#0f1419" alt="gmail" /></a>
 <a target="_blank" href="https://www.linkedin.com/in/achuth-g-69104a251" style="display: inline-block;"><img src="https://img.shields.io/badge/linkedin-logo?style=for-the-badge&logo=linkedin&logoColor=white&color=#0a77b6" alt="linkedin" /></a>
 <a target="_blank" href="https://www.instagram.com/its_achuth" style="display: inline-block;"><img src="https://img.shields.io/badge/instagram-logo?style=for-the-badge&logo=instagram&logoColor=white&color=#F35369" alt="instagram" /></a></p>
 
-
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
