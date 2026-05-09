@@ -5,7 +5,7 @@
 
 <!-- Typing SVG -->
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=700&height=100&lines=%F0%9F%91%8B+Hey+there%2C+I'm+Achuth;%F0%9F%8D%BA+Data+Science+Intern+%40+AB+InBev+GCC+India;%F0%9F%A7%A0+Obsessed+with+the+math+%26+philosophy+behind+AI;%F0%9F%A4%96+Building+Agentic+AI+%7C+Applied+Sciences+%7C+Deep+Learning" alt="Typing SVG" /></a>
-
+<br/>
 <br/>
 
 <!-- Profile Badges -->
