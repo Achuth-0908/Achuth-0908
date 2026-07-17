@@ -1,9 +1,9 @@
 <div align="center">
 
 <!-- Animated Header -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:58a6ff&height=220&section=header&text=Achuth&fontSize=75&fontColor=58a6ff&animation=fadeIn&fontAlignY=35&desc=Data%20Scientist%20%7C%20AI%20Architect%20%7C%20Builder&descSize=18&descAlignY=55&descColor=8b949e" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:58a6ff&height=220&section=header&text=Achuth&fontSize=75&fontColor=58a6ff&animation=fadeIn&fontAlignY=35&desc=AI%20Engineer%20%7C%20Data%20Scientist%20%7C%20Researcher&descSize=18&descAlignY=55&descColor=8b949e" />
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=700&height=100&lines=Data+Science+Intern+%40+AB+InBev+GCC+India;%F0%9F%A7%A0+Obsessed+with+the+math+%26+philosophy+behind+AI;%F0%9F%A4%96+Building+Scaled+AI+Based+Solutions+%7C+" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=750&height=100&lines=Building+Agentic+AI+Systems+%26+LLM+Orchestration+Pipelines;Researching+Embeddings%2C+Forecasting+%26+Novel+Architectures;Published+Author+%E2%80%94+Embodied+AI+%26+Applied+ML+Research" alt="Typing SVG" /></a>
 <br/>
 
 <!-- Profile Badges -->
@@ -15,24 +15,28 @@
 
 </div>
 
-<!-- Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="25"> &nbsp;About Me
 
 ```typescript
 const achuth = {
-    role: "Data Science Intern @ AB InBev GCC India 🍺",
-    identity: "Final-Year Undergrad → Industry",
+    role: "AI Engineer & Data Scientist",
+    education: "B.Tech Computer Science, VIT Chennai — CGPA 8.84 (2026)",
     obsession: "The math & philosophy behind why neural networks actually work",
-    currentArc: {
-        atWork: "Solving real-world DS problems at scale @ AB InBev",
-        afterHours: "Agentic AI • Applied Sciences • DL from first principles",
-        rabbit_hole: "Why does backprop converge? What is intelligence, really?"
-    },
-    stack: ["Python", "PyTorch", "LangGraph", "FastAPI", "React", "Next.js", "FAISS", "AWS"],
-    weapons: ["RAG Pipelines", "Agentic Workflows", "Vector Search", "LLM Orchestration"],
-    askMeAbout: ["AI/ML", "Agentic Systems", "Full-Stack", "The beauty of gradient descent"],
+    domains: [
+        "Agentic AI & LLM Orchestration (LangGraph, RAG)",
+        "Representation Learning & Embeddings",
+        "Time-Series Forecasting & Cold-Start Modeling",
+        "Novel Neural Architectures (beyond KANs)",
+        "Applied ML for large-scale analytics"
+    ],
+    research: [
+        "📖 Published book chapter — Embodied AI (Scrivener Publishing, 2026)",
+        "📄 Springer LNCS — Smart Pet Wearable Sensing System",
+        "🧪 Ongoing: MorphNet — learnable activation mixtures as a strict superset of KANs"
+    ],
+    stack: ["Python", "PyTorch", "LangGraph", "FastAPI", "React", "FAISS", "Azure"],
     philosophy: "Understand the 'why' before the 'how' — math is the language, code is the dialect",
     reachMe: "achuthganesh09@gmail.com"
 };
@@ -40,17 +44,77 @@ const achuth = {
 
 <img align="right" alt="Coding" width="320" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif">
 
-- 🍺 Currently a **Data Science Intern @ [AB InBev](https://www.ab-inbev.com/) GCC India**
-- 🧠 Deep diving into **Agentic AI, Applied Sciences & DL theory**
+- 🧠 Deep diving into **Agentic AI, representation learning & DL theory**
 - 📐 Fascinated by **the math behind loss landscapes, attention, & optimization**
-- 🤖 Building **autonomous AI agents** that reason, plan, and act
+- 🤖 Building **autonomous AI agents** that reason, plan, and act over enterprise data
+- 🧬 Designing **novel neural architectures** that generalize existing SOTA methods
 - 🔬 Philosophy: *"A model is only as good as your understanding of it"*
-- 💬 Ask me about **AI/ML, Full-Stack, or why transformers changed everything**
+- 📚 Published researcher in **embodied AI** and **applied sensing systems**
 - 🎯 Mission: **Bridge the gap between AI theory and real-world impact**
 
 <br clear="both"/>
 
-<!-- Divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+## 🚀 Flagship Projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🗣️ Conversational Analytics Copilot
+A **LangGraph-orchestrated** chatbot that lets business users query complex BI datasets in natural language, deployed across multiple international markets.
+
+- Multi-step agentic state machine with tool-calling & self-correction
+- Grounded Q&A over live BI dashboards, not static snapshots
+- Feedback loop + observability via Langfuse tracing
+- Architected end-to-end: prompt design → context assembly → deployment
+
+`LangGraph` `FastAPI` `Azure OpenAI` `RAG` `Langfuse`
+
+</td>
+<td width="50%" valign="top">
+
+### 🧩 Neural Product Embeddings
+A **custom transformer-based embedding system** that replaces brittle rule-based decision-tree logic for product substitution, powering downstream demand modeling.
+
+- Learns product substitutability directly from behavioral data
+- Feeds into demand transference, forecasting & cold-start SKU launches
+- Validated via nest audits & cross-category substitution analysis
+- kNN-in-embedding-space forecasting for entirely new products
+
+`PyTorch` `FAISS` `Transformers` `NAM Forecast Heads`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🧠 MorphNet — Beyond KANs
+An **original neural architecture** using *learnable activation mixtures* designed as a strict superset of Kolmogorov-Arnold Networks, targeting adaptive hierarchical regularization for structured tabular data.
+
+- Generalizes specialist function-fitting into a unified framework
+- Applied to Marketing Mix Modeling datasets
+- Core contribution: adaptive regularization across hierarchy levels
+
+`PyTorch` `Custom Architectures` `Applied Research`
+
+</td>
+<td width="50%" valign="top">
+
+### 📖 Published Research
+Peer-reviewed and published contributions spanning embodied intelligence and applied sensing.
+
+- **Book Chapter** — Embodied AI *(Scrivener Publishing, 2026)*
+- **Springer LNCS** — Smart Pet Wearable sensing & monitoring system
+- Focused on bridging theoretical AI concepts with physical-world systems
+
+`Research Writing` `Embodied AI` `Sensor Systems`
+
+</td>
+</tr>
+</table>
+
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## 🏆 GitHub Trophies
@@ -59,7 +123,6 @@ const achuth = {
   <img src="https://github-profile-trophy.vercel.app/?username=Achuth-0908&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=10" alt="Trophies" />
 </div>
 
-<!-- Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## 🛠️ Tech Arsenal
@@ -72,9 +135,7 @@ const achuth = {
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=amazon-dynamodb&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
@@ -106,23 +167,23 @@ const achuth = {
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white)
 
 ### ⚙️ Backend & APIs
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![Celery](https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
 ### 🗄️ Databases & Cloud
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=for-the-badge&logo=amazon-dynamodb&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
 ![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 
 ### 🔧 DevOps & Tools
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
@@ -130,12 +191,10 @@ const achuth = {
 ![CI/CD](https://img.shields.io/badge/CI%2FCD-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![PyTest](https://img.shields.io/badge/PyTest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
 </div>
 
-<!-- Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## 📊 GitHub Analytics
@@ -154,20 +213,10 @@ const achuth = {
 
 <br/>
 
-<!-- Activity Graph -->
 <div align="center">
   <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=Achuth-0908&bg_color=0d1117&color=58a6ff&line=58a6ff&point=c9d1d9&area=true&area_color=58a6ff&hide_border=true&custom_title=Contribution%20Graph" alt="Activity Graph" />
 </div>
 
-<br/>
-
-<!-- Profile Summary Cards -->
-<div align="center">
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Achuth-0908&theme=github_dark" alt="Repos per Language" />
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Achuth-0908&theme=github_dark" alt="Most Commit Language" />
-</div>
-
-<!-- Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## 🐍 Contribution Snake
@@ -180,7 +229,6 @@ const achuth = {
   </picture>
 </div>
 
-<!-- Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## 🎵 Vibes
@@ -193,7 +241,6 @@ const achuth = {
 
 </div>
 
-<!-- Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## 🤝 Connect With Me
@@ -208,6 +255,7 @@ const achuth = {
 
 <br/><br/>
 
+<img src="https://img.shields.io/badge/Open_to-AI%2FML_Roles-58a6ff?style=for-the-badge&labelColor=0d1117" />
 <img src="https://img.shields.io/badge/Open_to-Collaborations-58a6ff?style=for-the-badge&labelColor=0d1117" />
 <img src="https://img.shields.io/badge/Open_to-Freelance-58a6ff?style=for-the-badge&labelColor=0d1117" />
 
@@ -215,5 +263,4 @@ const achuth = {
 
 <br/>
 
-<!-- Animated Footer -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:58a6ff&height=120&section=footer" />
