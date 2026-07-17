@@ -14,7 +14,6 @@
 &nbsp;
 <img src="https://img.shields.io/badge/dynamic/json?color=a78bfa&label=Followers&query=%24.followers&suffix=%20devs&url=https%3A%2F%2Fapi.github.com%2Fusers%2FAchuth-0908&style=flat-square&logo=github" />
 &nbsp;
-<img src="https://img.shields.io/badge/status-job%20hunting-a78bfa?style=flat-square&logo=target&logoColor=white" />
 
 </div>
 
