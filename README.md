@@ -1,79 +1,109 @@
 <div align="center">
 
-# G. Achuth
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0b1220,55:0f2a3a,100:0b1220&height=170&text=G.%20ACHUTH&fontSize=58&fontColor=e6edf3&fontAlignY=42&desc=DATA%20SCIENCE%20%C2%B7%20AGENTIC%20AI%20%C2%B7%20LLM%20EVALUATION&descSize=15&descAlignY=70&descColor=22d3ee&animation=fadeIn" width="100%" alt="G. Achuth: Data Science, Agentic AI, LLM Evaluation" />
 
-**I build LLM systems, then measure whether they deserve to be trusted.**
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=2600&pause=1200&color=22D3EE&center=true&vCenter=true&width=620&height=36&lines=%3E+building+agents+that+retrieve%2C+reason+and+act;%3E+measuring+whether+a+model+can+be+trusted;%3E+data+science+%40+AB+InBev+GCC" alt="building agents that retrieve, reason and act" />
 
-Data Science @ AB InBev GCC · B.Tech CSE, VIT Chennai<br>
-[achuthfolio.vercel.app](https://achuthfolio.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/achuth-g-69104a251) · [achuthganesh09@gmail.com](mailto:achuthganesh09@gmail.com)
+<a href="https://achuthfolio.vercel.app/"><img src="https://img.shields.io/badge/portfolio-0b1220?style=flat-square&logo=vercel&logoColor=22d3ee" alt="Portfolio" /></a>
+<a href="https://www.linkedin.com/in/achuth-g-69104a251"><img src="https://img.shields.io/badge/linkedin-0b1220?style=flat-square&logo=linkedin&logoColor=22d3ee" alt="LinkedIn" /></a>
+<a href="mailto:achuthganesh09@gmail.com"><img src="https://img.shields.io/badge/email-0b1220?style=flat-square&logo=gmail&logoColor=22d3ee" alt="Email" /></a>
 
 </div>
 
----
+&nbsp;
 
-> **Abstract.** I work on data science at AB InBev GCC and on agentic AI after hours: retrieval pipelines,
-> multi-step agents, and the evaluation work that tells you whether either one is any good. I'd rather know *why*
-> a model works than only that it does, so most of my side projects end up as experiments. Right now that means
-> checking whether LLM fact-verifiers are **calibrated**, not just accurate.
->
-> **Keywords:** agentic systems · retrieval · calibration · evaluation · deep learning from first principles
+```yaml
+whoami:
+  role:       Data Science @ AB InBev GCC
+  education:  B.Tech CSE, VIT Chennai
+  focus:      [agentic systems, retrieval, LLM evaluation]
+  approach:   understand why it works, then make it work at scale
+  status:     open to collaborations
+```
 
 &nbsp;
 
-### 1 &nbsp;Current work
+## ◆ How I build
 
-A verifier that says *0.9* should be right about 90% of the time:
-
-$$\Pr\big(Y = 1 \mid \hat{p} = p\big) = p$$
-
-Most LLM pipelines never check this. **Jev-Arbiter** (research code, not public yet) does, claim by claim:
-
-- Scores atomic claims against retrieved evidence on [LLM-AggreFact](https://llm-aggrefact.github.io/) (11 datasets, 2,200 test claims)
-- Thresholds were **pre-registered and committed before the test split was touched**, and the test split was scored once
-- Every headline number comes with a 95% cluster-bootstrap CI
-- Result: AUROC **0.877** [0.859, 0.892], ECE **0.036** after recalibration. It **missed** its pre-registered Brier
-  target (0.138 vs 0.12), and the write-up reports that miss as it is
-
-&nbsp;
-
-### 2 &nbsp;Selected work
-
-| Project | What it is | Built with |
-|:--|:--|:--|
-| **Healthcare Symptom Checker** <br> [backend](https://github.com/Achuth-0908/healthcare_symptom_checker-backend) · [frontend](https://github.com/Achuth-0908/RAG-based-Healthcare-Symptom-Checker) | RAG over medical sources with a real-time chat UI | FastAPI, Jina embeddings, ChromaDB, Gemini + Groq, Next.js |
-| **JobIntel AI** <br> [backend](https://github.com/Achuth-0908/jobintel-ai-backend) · [frontend](https://github.com/Achuth-0908/JobIntel-AI) | Matches résumés to jobs and pulls out skill gaps | Flask, NLP pipeline, TypeScript |
-| **AnomalyGuard** <br> [repo](https://github.com/Achuth-0908/anomalyguard-ai-powered-anomaly-detection) · [live demo](https://anomalyguard-ai.streamlit.app/) | Interactive anomaly detection you can try in the browser | scikit-learn, Streamlit |
-| **Shopify Analytics** <br> [backend](https://github.com/Achuth-0908/shopify_analytics_backend) · [frontend](https://github.com/Achuth-0908/shopify_analytics_frontend) | Multi-tenant ingestion and metrics dashboard | Express, PostgreSQL, Next.js |
+```mermaid
+flowchart LR
+    D["<b>01 · DATA</b><br/>SQL · Pandas"]
+    R["<b>02 · RETRIEVE</b><br/>FAISS · pgvector"]
+    A["<b>03 · REASON</b><br/>LangGraph agents"]
+    E["<b>04 · EVALUATE</b><br/>RAGAS · calibration"]
+    S["<b>05 · SHIP</b><br/>FastAPI · AWS"]
+    D --> R --> A --> E --> S
+    classDef step fill:transparent,stroke:#22d3ee,stroke-width:1.5px
+    classDef focus fill:#22d3ee22,stroke:#22d3ee,stroke-width:2.5px
+    class D,R,A,S step
+    class E focus
+```
 
 &nbsp;
 
-### 3 &nbsp;Methods
+## ◆ Selected work
 
-<p>
-  <img src="https://skillicons.dev/icons?i=py,pytorch,sklearn,fastapi,postgres,ts,nextjs,tailwind,docker,aws&theme=dark" alt="Python, PyTorch, scikit-learn, FastAPI, PostgreSQL, TypeScript, Next.js, Tailwind, Docker, AWS" />
-</p>
-
-| | |
-|:--|:--|
-| **Models & agents** | PyTorch · LangGraph · LangChain · Hugging Face Transformers · Pydantic |
-| **Retrieval & eval** | FAISS · ChromaDB · Qdrant · pgvector · BM25 · RAGAS · Langfuse |
-| **Serving & product** | FastAPI · Flask · Next.js · React · Tailwind |
-| **Data & infra** | PostgreSQL · MongoDB · AWS · Docker · GitHub Actions |
+| | Project | What it does | Stack |
+|:-:|:--|:--|:--|
+| 01 | **[Symptom Checker](https://github.com/Achuth-0908/healthcare_symptom_checker-backend)** | RAG chat over medical sources, answered by Gemini or Groq | FastAPI · ChromaDB · Next.js |
+| 02 | **[JobIntel AI](https://github.com/Achuth-0908/jobintel-ai-backend)** | Scores résumé-to-job fit and extracts the skills behind it | Flask · NLP · TypeScript |
+| 03 | **[AnomalyGuard](https://anomalyguard-ai.streamlit.app/)** | Interactive anomaly detection with a live demo | scikit-learn · Streamlit |
+| 04 | **[Shopify Analytics](https://github.com/Achuth-0908/shopify_analytics_backend)** | Multi-tenant ingestion and metrics dashboard | Express · PostgreSQL · Next.js |
 
 &nbsp;
 
-### 4 &nbsp;Open questions
+## ◆ Toolkit
 
-Things I keep returning to. If you have a good answer, I'd like to hear it.
-
-1. Why do overparameterised networks generalise when classical theory says they shouldn't?
-2. Five LLM judges that agree with each other: how many *independent* votes is that, really?
-3. What does "calibrated" mean for an agent that acts, rather than one that only predicts?
-
-&nbsp;
-
----
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'fontFamily':'ui-monospace, monospace','primaryColor':'#0b1220','primaryTextColor':'#22d3ee','primaryBorderColor':'#22d3ee','lineColor':'#22d3ee','cScale0':'#0e7490','cScale1':'#155e75','cScale2':'#0891b2','cScale3':'#164e63','cScale4':'#0e7490','cScale5':'#155e75','cScaleLabel0':'#ffffff','cScaleLabel1':'#ffffff','cScaleLabel2':'#ffffff','cScaleLabel3':'#ffffff','cScaleLabel4':'#ffffff','cScaleLabel5':'#ffffff'}}}%%
+mindmap
+  root((ACHUTH))
+    AI and agents
+      PyTorch
+      LangGraph
+      LangChain
+      Transformers
+    Retrieval and eval
+      FAISS
+      ChromaDB
+      pgvector
+      RAGAS
+      Langfuse
+    Product
+      FastAPI
+      Next.js
+      React
+      Tailwind
+    Data and infra
+      PostgreSQL
+      MongoDB
+      AWS
+      Docker
+```
 
 <div align="center">
-<sub><i>"The purpose of computing is insight, not numbers."</i> · Richard Hamming</sub>
+<img src="https://skillicons.dev/icons?i=py,pytorch,sklearn,fastapi,postgres,mongodb,ts,nextjs,react,tailwind,docker,aws&perline=12" height="36" alt="Python, PyTorch, scikit-learn, FastAPI, PostgreSQL, MongoDB, TypeScript, Next.js, React, Tailwind, Docker, AWS" />
 </div>
+
+&nbsp;
+
+## ◆ Activity
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Achuth-0908&theme=github_dark">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Achuth-0908&theme=github" width="100%" alt="Contribution activity over the last year" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Achuth-0908&theme=github_dark&utcOffset=5.5">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Achuth-0908&theme=github&utcOffset=5.5" width="49%" alt="Commits by hour of day (IST)" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Achuth-0908&theme=github_dark">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Achuth-0908&theme=github" width="49%" alt="Top languages by commit" />
+</picture>
+</div>
+
+&nbsp;
+
+<div align="center"><sub><i>"The purpose of computing is insight, not numbers."</i> · Richard Hamming</sub></div>
